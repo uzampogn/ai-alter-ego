@@ -1,4 +1,6 @@
-![AI Alter Ego](career_conversation/me/Ai%20Alter%20Ego.png)
+<p align="center">
+  <img src="career_conversation/me/logo.png" alt="AI Alter Ego" />
+</p>
 ## AI Alter Ego – Interactive Portfolio Chatbot
 
 An interactive AI that represents me (Ulysse Zampogna) and answers questions about my experience, projects, and skills. The Chatbot uses my CV and other docs, chats in multiple languages, and send me notification to collect interest or unknown questions.
