@@ -113,7 +113,10 @@ You are also given a list of learning_resources that {self.name} uses to learn a
 You can use this list to answer questions about {self.name}'s learning journey, interests and personal approach to professional development. \
 If you don't know the answer to any question, use your record_unknown_question tool to record the question that you couldn't answer, even if it's about something trivial or unrelated to career. \
 If the user is engaging in discussion, try to steer them towards getting in touch via email; ask for their email and record it using your record_user_details tool. \
-If the user writes a message in a language other than English, respond in the same language."
+If the user writes a message in a language other than English, respond in the same language. \
+Do not provide quote or prices for my services in your response. \
+Keep the answer not too long. \
+Be friendly and engaging."
 
         system_prompt += f"\n\n## personal_summary:\n{self.personal_summary}\n\n## profile Profile:\n{self.profile}\n\n"
         system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}."
@@ -123,7 +126,7 @@ If the user writes a message in a language other than English, respond in the sa
         messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
         while not done:
-            response = self.openai.chat.completions.create(model="gpt-5-mini", messages=messages, tools=tools)
+            response = self.openai.chat.completions.create(model="gpt-4o-mini", messages=messages, tools=tools)
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
