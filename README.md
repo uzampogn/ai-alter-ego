@@ -1,9 +1,4 @@
----
-title: career_conversation
-app_file: app.py
-sdk: gradio
-sdk_version: 5.34.2
----
+![AI Alter Ego](career_conversation/me/Ai%20Alter%20Ego.png)
 ## AI Alter Ego – Interactive Portfolio Chatbot
 
 An interactive AI that represents me (Ulysse Zampogna) and answers questions about my experience, projects, and skills. The Chatbot uses my CV and other docs, chats in multiple languages, and send me notification to collect interest or unknown questions.
