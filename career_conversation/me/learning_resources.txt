@@ -1,0 +1,20 @@
+
+I strongly believe in continuous learning. Every occasion in life is an opportunity to learn. 
+My mission as professional is to empower clients, developers, data professionals, marketing specialists, sales specialists, business leaders and other functions to become more productive.
+I am interested in learning a wide variety of subjects, with a preference for history, geopolitics, music, architecture, design, chess, software and data engineering, product development, entrepreneurship, and business development.
+I do believe that data concepts and technology is less mature than the software engineering space. Therefore, I learn concepts and techniques from the software engineering space in order to apply them to build mordern data solutions.
+
+
+Here is a curated list of resources I use to acquire new professional skills and knowledge:
+- [Completed & Applied] Good Strategy Bad Strategy, Richard P. Rumelt, 2011 [https://www.goodreads.com/book/show/11721966-good-strategy-bad-strategy]
+- [Completed & Applied] Data Management at Scale, 2nd Edition, Piethein Strengholt, 2023, O'Reilly Media [https://www.oreilly.com/library/view/data-management-at/9781098138851/]
+- [Completed & Applied] Building Event-Driven Microservices, Adam Bellemare, 2020, O'Reilly Media [https://www.oreilly.com/library/view/building-event-driven-microservices/9781492057888/]
+- [Completed & Applied] Facilitator's Guide to Participatory Decision-Making, Sam Kaner et al., 1996 [https://www.goodreads.com/book/show/927064.Facilitator_s_Guide_to_Participatory_Decision_Making]
+- [Regular listener] Lenny’s Podcast by Lenny Rachitsky for product and business thinking [https://www.lennysnewsletter.com/podcast]
+- [Regular Reader] Product for Engineer from Post Hog [https://newsletter.posthog.com/]
+- [Regular Reader] ByteByteGo on System Design from Alex Xu [https://blog.bytebytego.com/]
+- [Regular Reader] Growth, Product led sales, GTM techniques by Elena Verna [https://www.elenaverna.com/] 
+- [In Progress] The Complete Agentic AI Engineering Course, Ed Donner, 2025, Udemy [https://www.udemy.com/course/the-complete-agentic-ai-engineering-course]
+- [Next] LLM Engineering: Master AI, Large Language Models & Agents, Ed Donner, 2025, Udemy [https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/?couponCode=MT260825G1]
+- [Next] Designing Distributed Systems, 2nd Edition [https://www.oreilly.com/library/view/designing-distributed-systems/9781098156343/]
+
