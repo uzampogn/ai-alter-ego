@@ -126,7 +126,7 @@ Be friendly and engaging."
         messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
         while not done:
-            response = self.openai.chat.completions.create(model="gpt-4o-mini", messages=messages, tools=tools)
+            response = self.openai.chat.completions.create(model="gpt-5.1-chat-latest", messages=messages, tools=tools)
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     gr.ChatInterface(
         me.chat,
         type="messages",
-        chatbot=gr.Chatbot(value=initial_messages, type="messages", avatar_images=(None, profile_image_path)),
+        chatbot=gr.Chatbot(value=initial_messages, type="messages", avatar_images=(None, profile_image_path), height="85vh"),
         theme="monochrome",
         fill_height=True,
         fill_width=True,
